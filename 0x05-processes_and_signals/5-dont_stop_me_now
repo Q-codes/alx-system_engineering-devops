@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # kill the previous process, 4-to_infinity_and_beyond
 
-pid_task_4=$(pgrep -f 4-to_infinity_and_beyond)
-kill "pid_task_4"
+pid_num=$(pgrep -f 4-to_infinity_and_beyond)
+kill "pid_num"
