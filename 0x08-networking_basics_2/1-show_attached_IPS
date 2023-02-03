@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#display all active IPv4 IPs
+
+ifconfig | sed -n '/inet /p' | tr -d 'inet ' | cut -d 'm' -f 1
